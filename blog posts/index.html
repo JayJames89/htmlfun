@@ -7,7 +7,10 @@
         <link rel="stylesheet" type="text/css" href="style.css"> <!--rel: telling browser that stylesheet should be linked
           type: lets html document know it's a css file, href: telling document the file name of where the styles are-->
    </head>
-   <body> <!--text, links, images-->
+   
+   <body> 
+     <div class="container">
+         <!--text, links, images-->
         <h1>My First Blog post</h1> <!--this is the biggest heading size<-->
         <h2>My Second Blog post</h2>
         <p class = "main-text">
@@ -22,12 +25,13 @@
              Various versions have evolved over the years, 
              sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         <p>
-          <h2>Moi</h2>
-          <img src="pineapple.jpeg" alt="Pineapple">
+          <h2>My Fruit</h2>
+        <img class= "selector" img src="pineapple.jpeg" alt="Pineapple" style="width:200px; height:auto">
           <a href="http://google.com">Link to google</a> <!--links to website by changing website-->
           <a href="http://google.com" target="_blank">Link to google in new tab</a> <!--links to website in another tab-->
           <a href="pineapple.jpeg" target="_blank">Link to pineapple img</a> <!--links image to pineapple-->
         </p>
-          
+     </div>
    </body>
+
 </html>
