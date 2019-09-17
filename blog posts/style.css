@@ -35,11 +35,13 @@ h2 {
 }
 
 .selector{
-    width:100%;
+    width:4000%;
     height:auto;
 }
 
 .main-text{
+    color: black;
+    font-size: 20px;
     text-align: justify;
     margin-bottom: 30px;
 }
