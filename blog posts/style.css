@@ -15,8 +15,8 @@ h1, h2  {
 }
 
 h1 {
-    color: green;
-    font-size: 40px;
+    color:orange;
+    font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
 }
@@ -28,14 +28,21 @@ h2 {
     margin-bottom: 20px;
 }
 
+.background{
+    width: auto;
+    position: sticky;
+    background-image: url(space.png);
+}
+
 .container{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(tron.jpg);
 }
 
 .selector{
-    width:4000%;
+    width:60%;
     height:auto;
 }
 
@@ -44,4 +51,5 @@ h2 {
     font-size: 20px;
     text-align: justify;
     margin-bottom: 30px;
+    background-color: black
 }
