@@ -1,7 +1,13 @@
-* {
+* {  
     margin: 0;
     padding: 0;
     box-sizing: Border-box;
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
 }
 
 body { 
@@ -38,8 +44,7 @@ h2 {
 
 .container{
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px, auto, 0, auto;
     background-image: url(tron.jpg);
     float: left;
     padding-right: 20px;
@@ -47,8 +52,9 @@ h2 {
 }
 
 .selector{
-    width:60%;
-    height:auto;
+    width:;
+    height:auto; 
+    border-top: auto solid grey;
 }
 
 .main-text{
